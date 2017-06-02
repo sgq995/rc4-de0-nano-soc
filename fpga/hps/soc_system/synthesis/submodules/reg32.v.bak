@@ -1,0 +1,15 @@
+module reg32(clk, reset_n, d, q, read, write);
+
+input clk, reset_n;
+input [31:0] d;
+output reg [31:0] q;
+
+always @(posedge clk) begin
+  if (~reset_n) begin
+    q = 32'b0;
+  end else begin
+    if (write) q = d;
+  end
+end
+
+endmodule

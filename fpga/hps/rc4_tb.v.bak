@@ -1,0 +1,8 @@
+module rc4_tb();
+
+initial begin
+  clk = 0;
+end
+
+always #1 clk = ~clk;
+endmodule

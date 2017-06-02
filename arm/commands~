@@ -1,0 +1,3 @@
+/home/sebastian/intelFPGA_lite/16.1/quartus/bin64/quartus_pgm -c "DE-SoC [1-3]" --auto
+quartus_pgm -c "DE-SoC [1-3]" -m jtag -o P\;/home/sebastian/workspace/verilog/my_first_hps-fpga_base/soc_system.sof@2
+quartus_hps --cable="DE-SoC [1-3]" -o GDBSERVER --gdbport0=3262 --preloader=/home/sebastian/intelFPGA_lite/16.1/University_Program/Monitor_Program/arm_tools/u-boot-spl.srec --preloaderaddr=0xffff13a0

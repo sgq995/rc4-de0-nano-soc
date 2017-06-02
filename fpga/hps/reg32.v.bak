@@ -1,0 +1,5 @@
+module reg32(clk, reset_n, readdata, writedata, read, write, chipselect);
+
+input clk, reset_n;
+
+endmodule

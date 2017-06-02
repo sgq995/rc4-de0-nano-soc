@@ -1,0 +1,7 @@
+module reg32_avalon_interface(clk, reset_n, writedata, readdata, write, read, chipselect);
+
+input clk, reset_n, read, write, chipselect;
+input [31:0] writedata;
+output [31:0] readdata;
+
+endmodule

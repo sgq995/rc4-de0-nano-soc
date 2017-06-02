@@ -1,0 +1,28 @@
+module rc4_avalon_interface(readdata, clk, reset_n, read, write, writedata, chipselect);
+
+output [31:0] readdata;
+
+input clk, reset_n, read, write, chipselect;
+input [31:0] writedata;
+
+wire local_ready;
+wire [7:0] local_streamvalue, local_keylength, local_keydata;
+
+assign local_keylength = writedata[15:8];
+assign local_keydata = writedata[7:0];
+
+rc4 U1(
+  .ready(local_ready), 
+  .streamvalue(local_streamvalue), 
+  .clk(clk), 
+  .rst_n(reset_n), 
+  .keylength(local_keylength), 
+  .keydata(local_keydata),
+  .keywrite(write & chipselect), 
+  .streamread(read & chipselect)
+);
+
+assign readdata[8] = local_ready;
+assign readdata[7:0] = local_streamvalue;
+
+endmodule

@@ -1,0 +1,118 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/sebastian/workspace/verilog/my_first_hps-fpga_base/simulation/modelsim
+valtera_edge_detector
+Z1 !s110 1494108475
+!i10b 1
+!s100 iLnL;nlB1YWG4McBD;;ch1
+IWJkD970eHhG`h:HYTkC>[3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1439931492
+8/home/sebastian/workspace/verilog/my_first_hps-fpga_base/ip/edge_detect/altera_edge_detector.v
+F/home/sebastian/workspace/verilog/my_first_hps-fpga_base/ip/edge_detect/altera_edge_detector.v
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1494108475.000000
+!s107 /home/sebastian/workspace/verilog/my_first_hps-fpga_base/ip/edge_detect/altera_edge_detector.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/sebastian/workspace/verilog/my_first_hps-fpga_base/ip/edge_detect|/home/sebastian/workspace/verilog/my_first_hps-fpga_base/ip/edge_detect/altera_edge_detector.v|
+!i113 1
+Z6 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+/home/sebastian/workspace/verilog/my_first_hps-fpga_base/ip/edge_detect
+Z7 tCvgOpt 0
+vghrd
+R1
+!i10b 1
+!s100 LQm[bFh<`9<Mb_PM^GC@H0
+IW7@bjAm?:?n>EdBf5zU5:0
+R2
+R0
+R3
+8/home/sebastian/workspace/verilog/my_first_hps-fpga_base/ghrd.v
+F/home/sebastian/workspace/verilog/my_first_hps-fpga_base/ghrd.v
+L0 37
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/sebastian/workspace/verilog/my_first_hps-fpga_base/ghrd.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/sebastian/workspace/verilog/my_first_hps-fpga_base|/home/sebastian/workspace/verilog/my_first_hps-fpga_base/ghrd.v|
+!i113 1
+R6
+!s92 -vlog01compat -work work +incdir+/home/sebastian/workspace/verilog/my_first_hps-fpga_base
+R7
+vhps_reset
+R1
+!i10b 1
+!s100 b?QAZKU6J_iflYK1AR3gi1
+IH@PTD@F7F[JmW`HHeE3@L3
+R2
+R0
+w1493847908
+8/home/sebastian/workspace/verilog/my_first_hps-fpga_base/ip/altsource_probe/hps_reset.v
+F/home/sebastian/workspace/verilog/my_first_hps-fpga_base/ip/altsource_probe/hps_reset.v
+L0 40
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/sebastian/workspace/verilog/my_first_hps-fpga_base/ip/altsource_probe/hps_reset.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/sebastian/workspace/verilog/my_first_hps-fpga_base/ip/altsource_probe|/home/sebastian/workspace/verilog/my_first_hps-fpga_base/ip/altsource_probe/hps_reset.v|
+!i113 1
+R6
+!s92 -vlog01compat -work work +incdir+/home/sebastian/workspace/verilog/my_first_hps-fpga_base/ip/altsource_probe
+R7
+vrc4
+!s110 1494108596
+!i10b 1
+!s100 Y3ec=T`UFc[Y3Qg@aCPWb0
+IR;DAc<aS1cULjF`Y4fbYO0
+R2
+R0
+w1494107843
+8/home/sebastian/workspace/verilog/my_first_hps-fpga_base/rc4.v
+F/home/sebastian/workspace/verilog/my_first_hps-fpga_base/rc4.v
+L0 10
+R4
+r1
+!s85 0
+31
+!s108 1494108595.000000
+!s107 /home/sebastian/workspace/verilog/my_first_hps-fpga_base/rc4.v|
+!s90 -reportprogress|300|-work|work|/home/sebastian/workspace/verilog/my_first_hps-fpga_base/rc4.v|
+!i113 1
+Z8 o-work work
+R7
+vrc4_tb
+!s110 1494108805
+!i10b 1
+!s100 B8MW=UVEUa7^kjdddGlGk3
+I5E;0oQ`_g]7bA46ZHY97[3
+R2
+R0
+w1494108797
+8/home/sebastian/workspace/verilog/my_first_hps-fpga_base/rc4_tb.v
+F/home/sebastian/workspace/verilog/my_first_hps-fpga_base/rc4_tb.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1494108805.000000
+!s107 /home/sebastian/workspace/verilog/my_first_hps-fpga_base/rc4_tb.v|
+!s90 -reportprogress|300|-work|work|/home/sebastian/workspace/verilog/my_first_hps-fpga_base/rc4_tb.v|
+!i113 1
+R8
+R7
